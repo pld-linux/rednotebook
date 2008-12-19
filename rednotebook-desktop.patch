@@ -1,0 +1,21 @@
+--- rednotebook-0.4.0/rednotebook.desktop~	2008-12-19 14:26:04.000000000 +0100
++++ rednotebook-0.4.0/rednotebook.desktop	2008-12-19 14:26:05.000000000 +0100
+@@ -1,13 +1,13 @@
+ [Desktop Entry]
+-#Version=1.0 #Not mandatory
+-#Encoding=UTF-­8 #Encoding causes problems
+ Name=RedNotebook
+ GenericName=Diary
++GenericName[pl]=Dziennik
+ Comment=A desktop diary
++Comment[pl]=Dziennik na biurko
+ Exec=rednotebook
+-Icon=/usr/share/pixmaps/rednotebook.png
++Icon=rednotebook
+ Terminal=false
+ Type=Application
+-Categories=Office;
++Categories=Office;Calendar;
+ StartupNotify=true
+-#MimeType=application/x-bittorrent;
++# vi: encoding=utf-8
