@@ -5,7 +5,7 @@ Summary:	A Desktop Diary
 Summary(pl.UTF-8):	Dziennik na biurko
 Name:		rednotebook
 Version:	0.5.3
-Release:	1
+Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rednotebook/%{name}-%{version}.tar.gz
