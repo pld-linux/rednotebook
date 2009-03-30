@@ -1,15 +1,12 @@
-#
-# TODO: doesn't work (python related error)
-#
 Summary:	A Desktop Diary
 Summary(pl.UTF-8):	Dziennik na biurko
 Name:		rednotebook
-Version:	0.6.3
-Release:	0.1
+Version:	0.6.4
+Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rednotebook/%{name}-%{version}.tar.gz
-# Source0-md5:	a4d1304364585ff423ef521abe00d04b
+# Source0-md5:	96c0927dfe3a2bc45dfae70fe7729cfe
 Patch0:		%{name}-desktop.patch
 URL:		http://digitaldump.wordpress.com/projects/rednotebook/
 BuildRequires:	python-devel >= 1:2.5
