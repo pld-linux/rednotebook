@@ -1,12 +1,12 @@
 Summary:	A Desktop Diary
 Summary(pl.UTF-8):	Dziennik na biurko
 Name:		rednotebook
-Version:	0.6.7
+Version:	0.7.2
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rednotebook/%{name}-%{version}.tar.gz
-# Source0-md5:	1c83d0aa119e1cd91f91ef122f104a04
+# Source0-md5:	4129b0d2515b7fa3f79f2139403515b5
 Patch0:		%{name}-desktop.patch
 URL:		http://digitaldump.wordpress.com/projects/rednotebook/
 BuildRequires:	python-devel >= 1:2.5
