@@ -1,12 +1,12 @@
---- rednotebook-0.7.2/rednotebook.desktop~	2009-05-18 00:54:50.000000000 +0200
-+++ rednotebook-0.7.2/rednotebook.desktop	2009-06-03 09:31:58.000000000 +0200
+--- rednotebook-0.8.3/rednotebook.desktop~	2009-08-10 12:55:57.000000000 +0200
++++ rednotebook-0.8.3/rednotebook.desktop	2009-08-10 12:55:57.000000000 +0200
 @@ -1,12 +1,13 @@
  [Desktop Entry]
 -Version=1.0
 -#Encoding=UTF-­8 #Encoding causes problems
  Name=RedNotebook
- GenericName=Diary
-+Generic[pl]=Dziennik
+ GenericName=Journal
++GenericName[pl]=Dziennik
  Comment=Daily journal with calendar, templates and keyword searching 
 +Comment[pl]=Dziennik z kalendarzem, szablonami i wyszukiwaniem słów
  Exec=rednotebook
