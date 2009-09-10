@@ -1,17 +1,19 @@
 Summary:	A Desktop Diary
 Summary(pl.UTF-8):	Dziennik na biurko
 Name:		rednotebook
-Version:	0.8.5
+Version:	0.8.6
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rednotebook/%{name}-%{version}.tar.gz
-# Source0-md5:	129bd692ec936761db8b1b8e12b4202c
+# Source0-md5:	bd4d3962a558c6d7f8952e10b24c2689
 Patch0:		%{name}-desktop.patch
 URL:		http://digitaldump.wordpress.com/projects/rednotebook/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+# doesn't run with gtk+2 2.17
+Requires:	gtk+2 < 2:2.17
 Requires:	python-PyYAML
 Requires:	python-gnome-extras-gtkhtml
 Requires:	python-gnome-extras-mozilla
