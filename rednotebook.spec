@@ -17,6 +17,7 @@ Requires:	python-PyYAML
 Requires:	python-gnome-extras-gtkhtml
 Requires:	python-gnome-extras-mozilla
 Requires:	python-pygtk-glade >= 2:2.14
+Requires:	python-pywebkitgtk
 Suggests:	python-chardet
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
