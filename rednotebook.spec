@@ -14,9 +14,10 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	gtk+2 >= 2:2.18
 Requires:	python-PyYAML
-Requires:	python-gnome-extras-gtkhtml
-Requires:	python-gnome-extras-mozilla
+Requires:	python-gnome-extras-gtkspell
+Requires:	python-pygobject
 Requires:	python-pygtk-glade >= 2:2.14
+Requires:	python-pygtk-gtk >= 2:2.14
 Requires:	python-pywebkitgtk
 Suggests:	python-chardet
 BuildArch:	noarch
